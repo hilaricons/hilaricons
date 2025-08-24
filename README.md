@@ -4,6 +4,8 @@
 </div>
 a link to the site: https://hilaricons.netlify.app/
 
+"W" - <img src="/hicns/facedev.svg" width="16" height="16">
+
 hilaricons is a specil icon set bcuz uhh
 
 - funny logo
