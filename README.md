@@ -22,4 +22,4 @@ then just run the `build.js` file.
 keep in mind all config is stored in the `build.js` file, including whether to build a ttf or an svg
 
 ## usage
-visit
+visit [the site](https://hilaricons.netlify.app/) for icon previews + ttf + css stylesheet
