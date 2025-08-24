@@ -1,5 +1,5 @@
 <center>
-	<img src="/banner.png">
+	<img src="/banner.svg">
 	<h1>hilaricons</h1>
 </center>
 hilaricons is a specil icon set bcuz uhh
