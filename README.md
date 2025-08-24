@@ -2,6 +2,8 @@
 	<img src="/banner.svg" style="width: 50%;">
 	<h1>hilaricons</h1>
 </div>
+a link to the site: https://hilaricons.netlify.app/
+
 hilaricons is a specil icon set bcuz uhh
 
 - funny logo
