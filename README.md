@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="/banner.svg" style="max-width: 50%;">
+	<img src="/banner.svg" style="width: 50%;">
 	<h1>hilaricons</h1>
 </div>
 hilaricons is a specil icon set bcuz uhh
