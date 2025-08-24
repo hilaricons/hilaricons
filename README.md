@@ -1,7 +1,7 @@
-<center>
-	<img src="/banner.svg">
+<div align="center">
+	<img src="/banner.svg" style="max-width: 50%;">
 	<h1>hilaricons</h1>
-</center>
+</div>
 hilaricons is a specil icon set bcuz uhh
 
 - funny logo
@@ -22,4 +22,4 @@ then just run the `build.js` file.
 keep in mind all config is stored in the `build.js` file, including whether to build a ttf or an svg
 
 ## usage
-for now we don't have any solid way to use hilaricons but we are working for a solution, trust us.
+visit
