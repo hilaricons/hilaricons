@@ -12,7 +12,11 @@ order = [ // i didnt make alphabetical sorting cuz that could break backwards co
 	"rgb",
 	"back",
 	"fwd",
-	"hicn"
+	"hicn",
+	"python",
+	"javascript",
+	"cheese",
+	"apple"
 ]
 size=[300,300]
 outTtf = true // this is the flag whether to build an svg or a ttf
