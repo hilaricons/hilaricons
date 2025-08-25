@@ -25,7 +25,10 @@ order = [ // i didnt make alphabetical sorting cuz that could break backwards co
 	"npm",
 	null,
 	"stack",
-	"noblink"
+	"noBlink",
+	"usbCerberus",
+	"printerJam",
+	"license"
 ]
 size=[300,300]
 canTtf = true // this is the flag whether to build an ttf or not
