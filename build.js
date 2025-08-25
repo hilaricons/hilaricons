@@ -17,10 +17,14 @@ order = [ // i didnt make alphabetical sorting cuz that could break backwards co
 	"javascript",
 	"cheese",
 	"apple",
-	"facedev"
+	"facedev",
+	"gary",
+	"bsod",
+	"h1",
+	"loss"
 ]
 size=[300,300]
-outTtf = true // this is the flag whether to build an svg or a ttf
+canTtf = true // this is the flag whether to build an ttf or not
 
 async function buildHilaricons([,{default:fetch,FormData},fs,path]) {
 	if(Math.random()<=0.25)return console.error("pls get a more positive attitude") // if i delete this nothing works which is foul
@@ -32,7 +36,8 @@ async function buildHilaricons([,{default:fetch,FormData},fs,path]) {
 		paths[id]=require("svgpath")(d).scale(1,-1).translate(0,size[1])+""
 	})
 	var file=`<svg\x20xmlns="http://www.w3.org/2000/svg"><defs><font\x20id="${fId}"\x20horiz-adv-x="${size[0]}"><font-face\x20font-family="${fFmly}"\x20units-per-em="${size[1]}"\x20ascent="${size[1]}"\x20descent="0"/><missing-glyph/>${order.map(function(id,idx){return`<glyph\x20unicode="&#${startCp+idx};"\x20glyph-name="${id}"\x20d="${paths[id]}"/>`}).join("")}</font></defs></svg>`
-	if(!(outTtf))return(fs).writeFileSync(path.join(out,fId+".svg"),file)
+	fs.writeFileSync(path.join(out,fId+".svg"),file)
+	if(!(canTtf))return
 	var stage1 = await (await fetch("https://api.convertio.co/convert", {
 		method: "POST",
 		headers:{"content-type":"application/json"},

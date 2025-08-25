@@ -24,7 +24,7 @@ to build, simply get these prerequisites:
 4. a positive™ fucking™ attitude™ (the build script doesnt work for non good spirited ppl for now (i think))
 
 then just run the `build.js` file.
-keep in mind all config is stored in the `build.js` file, including whether to build a ttf or an svg
+keep in mind all config is stored in the `build.js` file, including whether to build a ttf or not
 
 ## usage
 visit [the site](https://hilaricons.netlify.app/) for icon previews + ttf + css stylesheet
