@@ -12,6 +12,7 @@ hilaricons is a specil icon set bcuz uhh
 - we have a gradient + venn rgb diagram icon
 - why not
 - we have facedev now too
+- and also gary the cat
 
 we hope that you can use hilaricons within ur next projectery.
 
