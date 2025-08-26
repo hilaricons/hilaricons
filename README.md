@@ -14,6 +14,12 @@ hilaricons is a specil icon set bcuz uhh
 - we have facedev now too
 - and also gary the cat
 
+the v1 range is: U+F7676<=>U+7696 (inclusive)
+
+we have over 30 iconerys in v1! yippej!
+
+i am planning to continue making more hilaricons sooner.
+
 we hope that you can use hilaricons within ur next projectery.
 
 ## build
